@@ -1,0 +1,55 @@
+[
+  {
+    "id": 4,
+    "type": "fire",
+    "base_experience": 62,
+    "card_image": "https://images.pokemontcg.io/swsh4/23_hires.png"
+  },
+  {
+    "id": 7,
+    "type": "water",
+    "base_experience": 63,
+    "card_image": "https://images.pokemontcg.io/swshp/SWSH233_hires.png"
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "type": "bug",
+    "base_experience": 72
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "type": "flying",
+    "base_experience": 178,
+    "card_image": "https://images.pokemontcg.io/swsh8/3_hires.png"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "type": "electric",
+    "base_experience": 112,
+    "card_image": "https://images.pokemontcg.io/swsh7/49_hires.png"
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "type": "normal",
+    "base_experience": 95,
+    "card_image": "https://images.pokemontcg.io/swsh3/67_hires.png"
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "type": "poison",
+    "base_experience": 225,
+    "card_image": "https://images.pokemontcg.io/swsh11/66_hires.png"
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "type": "normal",
+    "base_experience": 65,
+    "card_image": "https://images.pokemontcg.io/swshp/SWSH127_hires.png"
+  }
+]
