@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-const pokemon = 	[
+const pokemons = 	[
   {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
   {id: 7,   name: 'Squirtle',   type: 'water',    base_experience: 63},
   {id: 11,  name: 'Metapod',    type: 'bug',      base_experience: 72},
@@ -15,13 +15,7 @@ const pokemon = 	[
 ]
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-
-    </>
-  )
 }
 
 export default App
