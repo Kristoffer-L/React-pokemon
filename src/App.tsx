@@ -15,7 +15,14 @@ const pokemons = 	[
 ]
 
 function App() {
-
+  <Board>
+    <Hand>
+      <Pokemon />
+      <Xp />
+    </Hand>
+    <h1>Winner: P1/P2</h1>
+    <Hand></Hand>
+  </Board>
 }
 
 export default App
