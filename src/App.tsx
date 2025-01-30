@@ -14,6 +14,13 @@ const pokemons = 	[
   {id: 133, name: 'Eevee',      type: 'normal',   base_experience: 65}
 ]
 
+interface Pokemon {
+  id: number,
+  name: string,
+  type: string,
+  base_experience: number
+}
+
 function App() {
   <Board>
     <Hand>
