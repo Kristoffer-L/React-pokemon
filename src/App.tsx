@@ -22,14 +22,22 @@ interface Pokemon {
 }
 
 function App() {
-  <Board>
-    <Hand>
-      <Pokemon />
-      <Xp />
-    </Hand>
-    <h1>Winner: P1/P2</h1>
-    <Hand></Hand>
-  </Board>
+  return (
+    <div>
+      <h1>Pokémon List</h1>
+      <div className="pokemon-container">
+        {pokemons.map((p) => (
+          <PokemonCard 
+            key={p.id} 
+            name={p.name} 
+            type={p.type} 
+            base_experience={p.base_experience} 
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
+
 
 export default App
